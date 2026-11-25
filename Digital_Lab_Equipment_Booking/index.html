@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101a30" />
+  <meta name="description" content="Reserve shared university laboratory equipment with LabReserve." />
+  <title>LabReserve — Your lab, in sync</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-splash" id="pageSplash" aria-hidden="true"><span class="splash-mark"><svg viewBox="0 0 24 24" fill="none" focusable="false"><path d="m5.5 4.5 6 6 2-2-6-6-2 2Z" fill="currentColor"/><path d="m10.5 10 4 4m-6.5-.5-1.5 1.5a5.5 5.5 0 1 0 7.8 7.8l1.5-1.5m-8-2.5h11.5m-5.5-4 4 4m.5-4.5h1.5a3.5 3.5 0 0 1 3.5 3.5V21M5 23h15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18.5" cy="5.5" r="4.2" fill="#7ee2d2"/><path d="m16.6 5.5 1.3 1.3 2.5-2.6" stroke="#193258" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="splash-word">LabReserve</span></div>
+
+  <div id="landingView">
+    <header class="landing-nav">
+      <a class="brand-lockup" href="#home" aria-label="LabReserve home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" focusable="false"><path d="m5.5 4.5 6 6 2-2-6-6-2 2Z" fill="currentColor"/><path d="m10.5 10 4 4m-6.5-.5-1.5 1.5a5.5 5.5 0 1 0 7.8 7.8l1.5-1.5m-8-2.5h11.5m-5.5-4 4 4m.5-4.5h1.5a3.5 3.5 0 0 1 3.5 3.5V21M5 23h15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18.5" cy="5.5" r="4.2" fill="#7ee2d2"/><path d="m16.6 5.5 1.3 1.3 2.5-2.6" stroke="#193258" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>LabReserve</strong><small>LAB EQUIPMENT BOOKING</small></span></a>
+      <nav class="landing-links" aria-label="Landing navigation">
+        <a href="#features">Platform</a><a href="#how-it-works">How it works</a><a href="#faq">FAQ</a>
+      </nav>
+      <div class="landing-actions"><button class="button button-quiet" data-auth-open="login">Sign in</button><button class="button button-primary" data-auth-open="signup">Get started <span aria-hidden="true">→</span></button></div>
+    </header>
+
+    <main>
+      <section class="landing-hero" id="home">
+        <div class="hero-mesh"></div><div class="hero-orb hero-orb-a"></div><div class="hero-orb hero-orb-b"></div>
+        <div class="landing-hero-copy reveal">
+          <div class="eyebrow-pill"><span class="pulse-dot"></span> SHARED LABS, BETTER ORGANISED</div>
+          <h1>Make room<br />for <span>what's next.</span></h1>
+          <p>Find the right instrument, claim a clear time slot and get back to the work that matters.</p>
+          <div class="hero-cta-row"><button class="button button-light button-large" data-auth-open="signup">Explore your lab <span aria-hidden="true">↗</span></button><span class="hero-caption"><span class="tiny-check">✓</span> One clear place for every lab booking</span></div>
+          <div class="hero-social-proof"><div class="proof-avatars"><span>PH</span><span>CH</span><span>BI</span><span>EL</span></div><span><strong>One shared schedule.</strong> Less time coordinating.</span></div>
+        </div>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="visual-grid"></div><div class="visual-ring ring-one"></div><div class="visual-ring ring-two"></div>
+          <img class="hero-illustration" src="lab-equipment-workbench.png" alt="" width="600" height="300" />
+          <div class="visual-label label-top"><span class="label-spark">✳</span><span><strong>Ready when you are</strong><small>Browse campus resources</small></span></div>
+          <div class="visual-label label-bottom"><span class="status-pip"></span> LIVE AVAILABILITY</div>
+        </div>
+        <a class="hero-scroll" href="#features"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="landing-stats section-wrap reveal" aria-label="LabReserve at a glance">
+        <div><strong data-count="18">18</strong><span>shared resources</span></div><div><strong data-count="4">4</strong><span>academic disciplines</span></div><div><strong>1</strong><span>simple booking flow</span></div><p>Made for people who make things.</p>
+      </section>
+
+      <section class="landing-section section-wrap" id="features">
+        <div class="section-heading reveal"><span class="section-kicker">A BETTER WAY TO SHARE</span><h2>Less chasing.<br /><span>More discovering.</span></h2><p>Everything students and lab teams need to keep shared equipment moving smoothly.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card reveal"><span class="feature-number">01</span><div class="feature-icon icon-blue">⌕</div><h3>Find the right tool</h3><p>Browse a clear catalogue by lab, category and live availability.</p><span class="feature-link">A catalogue that makes sense <b>↗</b></span></article>
+          <article class="feature-card reveal"><span class="feature-number">02</span><div class="feature-icon icon-teal">◷</div><h3>Book without the back-and-forth</h3><p>Choose an open slot, share your purpose and follow every request.</p><span class="feature-link">Your time, clearly reserved <b>↗</b></span></article>
+          <article class="feature-card reveal"><span class="feature-number">03</span><div class="feature-icon icon-violet">✳</div><h3>Keep the lab in sync</h3><p>Approvals, maintenance and history in one shared workspace.</p><span class="feature-link">Every update in one place <b>↗</b></span></article>
+        </div>
+      </section>
+
+      <section class="how-section" id="how-it-works">
+        <div class="section-wrap how-layout">
+          <div class="section-heading reveal"><span class="section-kicker">THREE STEPS. ZERO GUESSWORK.</span><h2>From idea to<br /><span>instrument.</span></h2><p>A simpler path from needing a resource to getting into the lab.</p><button class="button button-primary how-cta" data-auth-open="signup">Start with your lab <span aria-hidden="true">→</span></button></div>
+          <div class="steps-list">
+            <article class="step-item reveal"><span class="step-index">01</span><div><h3>Discover</h3><p>Search shared equipment and check which slots are open.</p></div><span class="step-marker">↗</span></article>
+            <article class="step-item reveal"><span class="step-index">02</span><div><h3>Request</h3><p>Tell the lab team when you need it and what you’re working on.</p></div><span class="step-marker">↗</span></article>
+            <article class="step-item reveal"><span class="step-index">03</span><div><h3>Get to work</h3><p>Follow your request from review to your lab history.</p></div><span class="step-marker">✓</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section section-wrap" id="faq">
+        <div class="section-heading reveal"><span class="section-kicker">GOOD TO KNOW</span><h2>Questions, <span>answered.</span></h2></div>
+        <div class="faq-list">
+          <details class="faq-item reveal"><summary>When is my equipment actually reserved?<span>+</span></summary><p>A request holds its time slot while it is pending. The booking is confirmed after an administrator approves it.</p></details>
+          <details class="faq-item reveal"><summary>What if an instrument is under maintenance?<span>+</span></summary><p>Maintenance blocks appear as unavailable slots, so you can choose another time before submitting a request.</p></details>
+          <details class="faq-item reveal"><summary>Is this connected to my university account?<span>+</span></summary><p>This is a front-end demonstration. The sample accounts are stored in the browser app and are not secure authentication.</p></details>
+        </div>
+      </section>
+    </main>
+    <footer class="landing-footer"><a class="brand-lockup" href="#home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" focusable="false"><path d="m5.5 4.5 6 6 2-2-6-6-2 2Z" fill="currentColor"/><path d="m10.5 10 4 4m-6.5-.5-1.5 1.5a5.5 5.5 0 1 0 7.8 7.8l1.5-1.5m-8-2.5h11.5m-5.5-4 4 4m.5-4.5h1.5a3.5 3.5 0 0 1 3.5 3.5V21M5 23h15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18.5" cy="5.5" r="4.2" fill="#7ee2d2"/><path d="m16.6 5.5 1.3 1.3 2.5-2.6" stroke="#193258" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>LabReserve</strong><small>LAB EQUIPMENT BOOKING</small></span></a><span>© 2026 LabReserve</span><span>Curiosity deserves good tools.</span></footer>
+  </div>
+
+  <div class="app-shell hidden" id="appShell">
+    <aside class="sidebar" id="sidebar" aria-label="Workspace navigation">
+      <a class="brand-lockup app-brand" href="#/dashboard"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" focusable="false"><path d="m5.5 4.5 6 6 2-2-6-6-2 2Z" fill="currentColor"/><path d="m10.5 10 4 4m-6.5-.5-1.5 1.5a5.5 5.5 0 1 0 7.8 7.8l1.5-1.5m-8-2.5h11.5m-5.5-4 4 4m.5-4.5h1.5a3.5 3.5 0 0 1 3.5 3.5V21M5 23h15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18.5" cy="5.5" r="4.2" fill="#7ee2d2"/><path d="m16.6 5.5 1.3 1.3 2.5-2.6" stroke="#193258" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>LabReserve</strong><small id="workspaceLabel">STUDENT WORKSPACE</small></span></a>
+      <div class="sidebar-label">WORKSPACE</div>
+      <nav id="mainNav" class="main-nav" aria-label="Main navigation"></nav>
+      <div class="sidebar-bottom">
+        <div class="sidebar-help"><span class="help-glyph">?</span><strong>Need a hand?</strong><p>Contact your laboratory administrator for equipment support.</p></div>
+        <div class="sidebar-user"><span class="user-avatar" id="sidebarAvatar">ST</span><span class="sidebar-user-copy"><strong id="sidebarName">Student</strong><small id="sidebarRole">Student</small></span><button class="icon-button sidebar-signout" data-action="logout" aria-label="Sign out" title="Sign out">↪</button></div>
+      </div>
+    </aside>
+    <button class="sidebar-backdrop" id="sidebarBackdrop" aria-label="Close navigation"></button>
+
+    <main class="app-main">
+      <header class="app-topbar">
+        <div class="topbar-leading"><button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button><div><span class="topbar-kicker">LAB RESOURCE MANAGEMENT</span><h1 id="pageTitle">Dashboard</h1></div></div>
+        <div class="topbar-tools">
+          <label class="global-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg><input id="globalSearch" type="search" placeholder="Search equipment..." aria-label="Search equipment" /><kbd>⌘ K</kbd></label>
+          <div class="topbar-popover-wrap"><button class="top-icon-button notification-trigger" id="notificationTrigger" aria-label="Notifications" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg><span class="unread-badge hidden" id="unreadBadge">0</span></button><div class="notification-popover hidden" id="notificationPopover"></div></div>
+          <div class="topbar-popover-wrap"><button class="account-trigger" id="accountTrigger" aria-label="Open account menu" aria-expanded="false"><span class="user-avatar" id="topAvatar">ST</span><span class="account-name" id="topAccountName">Student</span><span class="chevron">⌄</span></button><div class="account-popover hidden" id="accountPopover"><div class="account-summary"><strong id="popoverName">Student</strong><small id="popoverEmail">student@lab.edu</small></div><button data-route="profile">My profile</button><button id="themeToggle" data-action="theme">Switch to dark mode</button><button data-action="logout" class="popover-signout">Sign out <span>↪</span></button></div></div>
+        </div>
+      </header>
+      <div class="page-host" id="pageHost" tabindex="-1"></div>
+      <footer class="app-footer"><span>© 2026 LabReserve</span><span>Shared labs, better organised.</span><button data-action="command">Press <kbd>Ctrl K</kbd> to jump anywhere</button></footer>
+    </main>
+  </div>
+
+  <dialog class="auth-dialog" id="authDialog" aria-labelledby="authTitle">
+    <div class="auth-frame">
+      <button class="dialog-close" data-action="close-auth" aria-label="Close sign in">×</button>
+      <div class="auth-brand"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" focusable="false"><path d="m5.5 4.5 6 6 2-2-6-6-2 2Z" fill="currentColor"/><path d="m10.5 10 4 4m-6.5-.5-1.5 1.5a5.5 5.5 0 1 0 7.8 7.8l1.5-1.5m-8-2.5h11.5m-5.5-4 4 4m.5-4.5h1.5a3.5 3.5 0 0 1 3.5 3.5V21M5 23h15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18.5" cy="5.5" r="4.2" fill="#7ee2d2"/><path d="m16.6 5.5 1.3 1.3 2.5-2.6" stroke="#193258" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>LabReserve</strong><small>YOUR CAMPUS LAB, IN SYNC</small></span></div>
+      <div class="auth-heading"><span class="section-kicker">WELCOME TO YOUR LAB</span><h2 id="authTitle">Good to have you here.</h2><p>Sign in to pick up where your next idea begins.</p></div>
+      <div class="auth-role-switch" role="tablist" aria-label="Choose account type"><button class="auth-role-tab active" role="tab" aria-selected="true" data-auth-role="student">Student</button><button class="auth-role-tab" role="tab" aria-selected="false" data-auth-role="admin">Administrator</button><span class="role-switch-indicator"></span></div>
+      <div class="auth-demo-hint" id="authDemoHint">Demo: student@lab.edu <span>·</span> student123</div>
+      <form id="authForm" novalidate>
+        <div class="auth-field"><label for="authEmail">University email</label><input id="authEmail" name="email" type="email" autocomplete="username" required placeholder="you@university.edu" /><small class="field-error" data-error="email"></small></div>
+        <div class="auth-field"><label for="authPassword">Password</label><div class="password-wrap"><input id="authPassword" name="password" type="password" autocomplete="current-password" required placeholder="Enter your password" /><button type="button" class="password-toggle" data-action="password" aria-label="Show password">Show</button></div><small class="field-error" data-error="password"></small></div>
+        <div class="auth-options"><label class="check-label"><input id="rememberMe" type="checkbox" /><span class="custom-check"></span> Remember me</label><button type="button" class="text-action" id="signupToggle">Create student account</button></div>
+        <div class="signup-fields hidden" id="signupFields">
+          <div class="auth-field"><label for="signupName">Full name</label><input id="signupName" type="text" autocomplete="name" maxlength="60" placeholder="Your full name" /><small class="field-error" data-error="name"></small></div>
+          <div class="auth-field"><label for="signupRoll">Roll number</label><input id="signupRoll" type="text" maxlength="24" placeholder="e.g. 24PHY103" /></div>
+          <div class="auth-field"><label for="signupDepartment">Department</label><select id="signupDepartment"><option value="">Select department</option><option>Physics</option><option>Chemistry</option><option>Biology</option><option>Electronics</option><option>Engineering</option></select></div>
+        </div>
+        <div class="auth-form-error hidden" id="authFormError" role="alert"></div>
+        <button class="button button-primary auth-submit" type="submit" id="authSubmit">Sign in <span aria-hidden="true">→</span></button>
+      </form>
+      <p class="auth-security-note">Demo mode only — accounts are stored in this browser, not a secure server.</p>
+    </div>
+  </dialog>
+
+  <dialog class="command-dialog" id="commandDialog" aria-label="Command palette">
+    <div class="command-search"><span>⌕</span><input id="commandSearch" type="search" placeholder="Search pages or equipment..." aria-label="Search pages or equipment" /><kbd>ESC</kbd></div>
+    <div class="command-results" id="commandResults"></div>
+    <div class="command-footer"><span>↑↓ to navigate</span><span>↵ to select</span><span>ESC to close</span></div>
+  </dialog>
+  <div id="modalHost"></div>
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="false"></div>
+  <script src="script.js"></script>
+</body>
+</html>
